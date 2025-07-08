@@ -1,14 +1,16 @@
 "use client";
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import "./kamokusu.css";
 
 export const SubjectInput=()=> {
   const [subjectCount, setSubjectCount] = useState<string>("");
+  const router = useRouter();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert(`科目数: ${subjectCount}`);
+    router.push(`/score_and_credit?count=${subjectCount}`)
   };
 
   return (
