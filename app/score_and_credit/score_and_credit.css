@@ -1,0 +1,86 @@
+/* フォーム全体のスタイル */
+.score-form {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 見出し */
+.score-form h2 {
+  text-align: center;
+  margin-bottom: 28px;
+  color: #333;
+  font-size: 1.6rem;
+}
+
+/* 各科目の行 */
+.score-row {
+  margin-bottom: 24px;
+}
+
+/* 科目ラベル（例: 科目1） */
+.score-row > label {
+  display: block;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+/* 点数と単位のラベル・入力欄グループ */
+.input-group {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+/* 点数・単位それぞれのラベルと入力欄 */
+.input-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* 入力欄そのもの */
+.input-label input {
+  margin-top: 4px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 140px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* フォーカス時の強調 */
+.input-label input:focus {
+  border-color: #4e9af1;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(78, 154, 241, 0.2);
+}
+
+/* ボタン */
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #4e9af1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+/* ホバー時 */
+.submit-button:hover {
+  background-color: #357fd8;
+}
