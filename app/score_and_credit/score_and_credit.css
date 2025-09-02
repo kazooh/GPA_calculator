@@ -84,3 +84,19 @@
 .submit-button:hover {
   background-color: #357fd8;
 }
+
+.result-box {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.result-box p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 8px 0;
+}
