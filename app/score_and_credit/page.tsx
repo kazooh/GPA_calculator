@@ -10,4 +10,4 @@ export default function ScoreAndCreditPage({ searchParams }: { searchParams: { c
     }
 
     return <ScoreAndCreditForm subjectCount={count}/>
-}
+}//
