@@ -5,7 +5,7 @@ import "./score_and_credit.css";
 
 type Props = {
   subjectCount: number;
-};//
+};
 
 // 点数から GPA に変換する関数
 function scoreToGPA(score: number): number {
